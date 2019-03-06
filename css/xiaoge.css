@@ -1,0 +1,95 @@
+
+body,
+h1,
+h2,
+ul,
+p{
+    margin: 0;
+    font-family: "微软雅黑";
+}
+ul{
+    padding: 0;
+    list-style: none;
+    
+}
+.wrapper{
+    width: 800px;
+     margin: 0 auto;    
+}
+
+header a{
+    display: block;
+    width: 161px;
+    height: 66px;
+    background: url(../img/top_logo.png) no-repeat;
+    text-indent: -9999px;
+}
+nav{
+    padding: 15px 0 ;
+    border-bottom: 2px solid #F0EFEF;
+}
+nav ul li {
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px; 
+    font-size: 18px;
+}
+.li1{
+    border-bottom: #ccc solid 2px;
+}
+
+main{
+    overflow: hidden;
+}
+article{
+    float: left;
+    width: 550px;
+    padding-right: 40px;
+    border-right: #ccc solid 2px;
+}
+article h1{
+    font-size: 25px;
+    padding: 12px 0 ;
+}
+article span{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+article p{
+    color: #414141;
+    text-indent: 2em;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.img img {
+    width: 100%;
+    height: auto;
+}
+aside{
+    width: 200px;
+    float: right;
+}
+aside h2{
+    font-size: 18px;
+    margin: 10px 0; 
+}
+aside p{
+    font-size: 13px;
+    line-height: 24p    x;
+}
+section{
+    width: 180px;
+    margin-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
+.images img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    font-size: 12px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    border-top: #ccc solid 1px;
+}
